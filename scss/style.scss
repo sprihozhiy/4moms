@@ -1,0 +1,42 @@
+@import "./base";
+@import "./colors";
+
+nav {
+  display: grid;
+  .banner {
+    background-color: $black;
+  }
+  .menu {
+    .menu-icon {
+      svg {
+        width: 1rem;
+        height: auto;
+      }
+    }
+  }
+}
+
+.hero {
+}
+
+.icons {
+}
+
+.categories {
+}
+
+.promo1 {
+}
+
+.promo2 {
+}
+.testimonials {
+}
+.social {
+}
+.prefooter {
+}
+.awards {
+}
+footer {
+}
