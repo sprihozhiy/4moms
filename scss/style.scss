@@ -1,16 +1,44 @@
 @import "./base";
 @import "./colors";
+@import "./typography";
 
 nav {
   display: grid;
   .banner {
+    display: flex;
     background-color: $black;
+    color: $white;
+    align-content: center;
+    justify-content: center;
+    padding: 0.8rem 0;
+    font-weight: $bold;
   }
   .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    a {
+      display: inline-block;
+      svg {
+        height: 3.65rem;
+        width: auto;
+      }
+    }
+    .menu-wrapper {
+      display: flex;
+      align-items: center;
+      & span {
+        display: inline-block;
+
+        &:first-child {
+          margin-right: 1rem;
+        }
+      }
+    }
     .menu-icon {
       svg {
-        width: 1rem;
-        height: auto;
+        height: 1.4rem;
+        width: auto;
       }
     }
   }
@@ -23,6 +51,17 @@ nav {
 }
 
 .categories {
+  div {
+    a {
+    }
+
+    .icon-arrow {
+      svg {
+        height: 1.42rem;
+        width: auto;
+      }
+    }
+  }
 }
 
 .promo1 {
@@ -39,4 +78,14 @@ nav {
 .awards {
 }
 footer {
+  background-color: $black;
+  color: $white;
+  .social-media {
+    a {
+      svg {
+        height: 1.65rem;
+        width: auto;
+      }
+    }
+  }
 }

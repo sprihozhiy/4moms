@@ -18,11 +18,53 @@ nav {
   display: grid;
 }
 nav .banner {
+  display: flex;
   background-color: #000;
+  color: #fff;
+  align-content: center;
+  justify-content: center;
+  padding: 0.8rem 0;
+  font-weight: 700;
+}
+nav .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .menu a {
+  display: inline-block;
+}
+nav .menu a svg {
+  height: 3.65rem;
+  width: auto;
+}
+nav .menu .menu-wrapper {
+  display: flex;
+  align-items: center;
+}
+nav .menu .menu-wrapper span {
+  display: inline-block;
+}
+nav .menu .menu-wrapper span:first-child {
+  margin-right: 1rem;
 }
 nav .menu .menu-icon svg {
-  width: 1rem;
-  height: auto;
+  height: 1.4rem;
+  width: auto;
+}
+
+.categories div .icon-arrow svg {
+  height: 1.42rem;
+  width: auto;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
+footer .social-media a svg {
+  height: 1.65rem;
+  width: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
