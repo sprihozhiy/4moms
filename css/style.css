@@ -16,6 +16,7 @@ body {
 
 nav {
   display: grid;
+  min-height: 15vh;
 }
 nav .banner {
   display: flex;
@@ -51,6 +52,41 @@ nav .menu .menu-wrapper span:first-child {
 nav .menu .menu-icon svg {
   height: 1.4rem;
   width: auto;
+}
+
+.hero {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #e2e2e2 no-repeat bottom/80% url("../img/1.png");
+}
+.hero h1 {
+  margin-top: 1.4rem;
+  font-size: 2em;
+  font-weight: 400;
+}
+.hero h2 {
+  margin-top: 1.7rem;
+  color: #636363;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.8rem;
+  padding: 1.7rem 2.7rem 0;
+  text-align: justify;
+  text-align-last: center;
+  letter-spacing: 0.1rem;
+}
+.hero a {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  margin: 2rem 4rem 0;
+  border-radius: 10px;
+  padding: 1rem 4rem;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 .categories div .icon-arrow svg {
